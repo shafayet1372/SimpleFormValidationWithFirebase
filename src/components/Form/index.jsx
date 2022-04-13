@@ -19,13 +19,7 @@ export default function Index() {
   let changeHandler = (e) => {
     setValues((p) => ({ ...p, [e.target.name]: e.target.value }));
   };
-  useEffect(() => {
-    getDocs(collections).then((data) => {
-      data.docs.forEach((x) => {
-        console.log(x.data());
-      });
-    });
-  }, []);
+
   let addData = async () => {
     let { name, email, password } = values;
 
