@@ -5,13 +5,15 @@ import Form from "./Form";
 import { ToastContainer } from "react-toastify";
 export default function Master() {
   return (
-    <Container fluid className={style.maincontainer}>
-      <Row>
-        <Col md="12 my-2">
-          <Form />
-        </Col>
-      </Row>
-      <ToastContainer />
-    </Container>
+    <div className={style.block}>
+      <Container fluid className={style.maincontainer}>
+        <Row>
+          <Col md="12 my-2">
+            <Form />
+          </Col>
+        </Row>
+        <ToastContainer />
+      </Container>
+    </div>
   );
 }
