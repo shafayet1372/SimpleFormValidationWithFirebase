@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SimpleFormValidationWithFirebase%20%20/static/css/main.a10c1bdd.css",
-    "main.js": "/SimpleFormValidationWithFirebase%20%20/static/js/main.25f7d429.js",
-    "static/js/787.367430c0.chunk.js": "/SimpleFormValidationWithFirebase%20%20/static/js/787.367430c0.chunk.js",
-    "index.html": "/SimpleFormValidationWithFirebase%20%20/index.html",
-    "main.a10c1bdd.css.map": "/SimpleFormValidationWithFirebase%20%20/static/css/main.a10c1bdd.css.map",
-    "main.25f7d429.js.map": "/SimpleFormValidationWithFirebase%20%20/static/js/main.25f7d429.js.map",
-    "787.367430c0.chunk.js.map": "/SimpleFormValidationWithFirebase%20%20/static/js/787.367430c0.chunk.js.map"
+    "main.css": "/SimpleFormValidationWithFirebase/static/css/main.a10c1bdd.css",
+    "main.js": "/SimpleFormValidationWithFirebase/static/js/main.9575bca8.js",
+    "static/js/787.367430c0.chunk.js": "/SimpleFormValidationWithFirebase/static/js/787.367430c0.chunk.js",
+    "index.html": "/SimpleFormValidationWithFirebase/index.html",
+    "main.a10c1bdd.css.map": "/SimpleFormValidationWithFirebase/static/css/main.a10c1bdd.css.map",
+    "main.9575bca8.js.map": "/SimpleFormValidationWithFirebase/static/js/main.9575bca8.js.map",
+    "787.367430c0.chunk.js.map": "/SimpleFormValidationWithFirebase/static/js/787.367430c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a10c1bdd.css",
-    "static/js/main.25f7d429.js"
+    "static/js/main.9575bca8.js"
   ]
 }
