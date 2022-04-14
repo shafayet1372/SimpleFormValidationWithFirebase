@@ -55,6 +55,7 @@ export default function FormController({
           onChange={changeHandler}
           value={email}
           name="email"
+          isInvalid={errors && errors.email}
           // isValid={errors && !errors.email}
         />
       </InputGroup>
@@ -92,6 +93,7 @@ export default function FormController({
           onChange={changeHandler}
           value={confirmedPassword}
           name="confirmedPassword"
+          isInvalid={errors && errors.confirmedPassword}
           // isInvalid={errors && errors.confirmedPassword}
         />
       </InputGroup>

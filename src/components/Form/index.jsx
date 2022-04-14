@@ -22,6 +22,7 @@ export default function Index() {
 
   let addData = async () => {
     let { name, email, password } = values;
+    setErrors(null);
 
     try {
       await addDoc(collections, { username: name, password, email });
@@ -36,9 +37,8 @@ export default function Index() {
         theme: "colored",
         type: "success",
       });
-      setSpinner(true);
-      setErrors(null);
       setValues(initialValues);
+      setSpinner(true);
       setAgreement(false);
     } catch (e) {
       alert();
